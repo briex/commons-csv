@@ -121,7 +121,7 @@ public class CSVRecordTest {
         assertFalse(recordWithHeader.isSet("fourth"));
     }
 
-  /*  @Test
+    @Test
     public void testIterator() {
         int i = 0;
         for (final String value : record) {
@@ -129,7 +129,7 @@ public class CSVRecordTest {
             i++;
         }
     }
-*/
+
     @Test
     public void testPutInMap() {
         final Map<String, String> map = new ConcurrentHashMap<String, String>();
